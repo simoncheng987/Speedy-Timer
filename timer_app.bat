@@ -11,5 +11,6 @@ ping localhost -n 2 >nul
 cls
 goto loop
 :end
-echo Time is out
-pause
+cd ./sound
+start /B alarm.bat
+exit

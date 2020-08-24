@@ -8,3 +8,4 @@ set "file=test.mp3"
   echo loop
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >sound.vbs
 start /min sound.vbs
+exit
