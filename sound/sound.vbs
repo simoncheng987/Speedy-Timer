@@ -1,5 +1,5 @@
 Set Sound = CreateObject("WMPlayer.OCX.7")
-Sound.URL = "test.mp3"
+Sound.URL = "alarm.mp3"
 Sound.Controls.play
 do while Sound.currentmedia.duration = 0
 wscript.sleep 100
